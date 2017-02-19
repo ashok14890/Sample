@@ -1,5 +1,6 @@
 <project name="MyProject" default="dist">
 <target name="dist">
 <echo message="hello"/>
+  <javac srcdir="." destdir="build/classes"/>
 </target>
 </project>
